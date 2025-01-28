@@ -412,8 +412,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _img: {fileID: 1295906832}
-  _x: 0.01
-  _y: 0.01
+  _x: 0
+  _y: 0.03
 --- !u!114 &1295906832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 165a705496af4e74b9393e1eb85078a3, type: 3}
+  m_Texture: {fileID: 2800000, guid: 485fe4570ca643243a67d03da43a703b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
