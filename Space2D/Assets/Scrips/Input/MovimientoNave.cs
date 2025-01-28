@@ -13,7 +13,7 @@ public class PruebaMovimiento : MonoBehaviour
     private PlayerInput playerInput;
     private Vector2 movement;
 
-
+    public bool isAttacking;
 
     void Start()
     {
@@ -31,6 +31,13 @@ public class PruebaMovimiento : MonoBehaviour
     public void OnMove(InputAction.CallbackContext context)
     {
         movement = context.ReadValue<Vector2>();
+    }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            isAttacking = true;
+        }
     }
 
     #endregion
