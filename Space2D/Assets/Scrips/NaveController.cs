@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -15,16 +16,21 @@ public class PlayerController2D : MonoBehaviour
     [SerializeField] bool canAttack = true;
     [SerializeField] float attackCooldown = 1.0f;
 
+    [Header("Input Parameters")]
+    [SerializeField] bool isAttacking;
+    [SerializeField] Vector2 movement;
+
     //Varibles de autoreferencia
     Rigidbody2D playerRb;
     //PlayerInputHandle input;
     Animator playerAnim;
+    PlayerInput input;
 
 
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        //input = GetComponent<PlayerInputHandle>();
+        input = GetComponent<PlayerInput>();
         playerAnim = GetComponent<Animator>();
     }
 
@@ -41,12 +47,12 @@ public class PlayerController2D : MonoBehaviour
 
     void Move()
     {
-        playerRb.AddForce(Vector3.up * speed * input.moveInput);
+        playerRb.AddForce(speed * movement);
     }
 
     void Attack()
     {
-        if (input.isAttacking && canAttack)
+        if (isAttacking && canAttack)
         {
             canAttack = false;
             Instantiate(bulletPrefab, attackPoint.position, Quaternion.identity);
@@ -55,7 +61,22 @@ public class PlayerController2D : MonoBehaviour
     }
     void ResetAttack()
     {
-        input.isAttacking = false; //define que no estamos atacando
+        isAttacking = false; //define que no estamos atacando
         canAttack = true; //define que podemos atacar
     }
+
+    #region Input Methods
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        movement = context.ReadValue<Vector2>();
+    }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            isAttacking = true;
+        }
+    }
+
+    #endregion
 }

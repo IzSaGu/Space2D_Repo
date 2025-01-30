@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 3342267178751970520}
   - component: {fileID: 7303447045301748369}
   - component: {fileID: 5564358929615197188}
-  - component: {fileID: 8801242392957515461}
   - component: {fileID: 5185871385703092957}
   - component: {fileID: 6073919213224259242}
+  - component: {fileID: 7568083282132218425}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Player
@@ -138,20 +138,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8801242392957515461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311784215118801757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e770236acd8ab53499f3a335544a5543, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 5
-  isAttacking: 0
 --- !u!114 &5185871385703092957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,8 +165,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8801242392957515461}
-        m_TargetAssemblyTypeName: PruebaMovimiento, Assembly-CSharp
+      - m_Target: {fileID: 7568083282132218425}
+        m_TargetAssemblyTypeName: PlayerController2D, Assembly-CSharp
         m_MethodName: OnMove
         m_Mode: 0
         m_Arguments:
@@ -195,8 +181,8 @@ MonoBehaviour:
     m_ActionName: Gameplay/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8801242392957515461}
-        m_TargetAssemblyTypeName: PruebaMovimiento, Assembly-CSharp
+      - m_Target: {fileID: 7568083282132218425}
+        m_TargetAssemblyTypeName: PlayerController2D, Assembly-CSharp
         m_MethodName: OnAttack
         m_Mode: 0
         m_Arguments:
@@ -273,6 +259,25 @@ PolygonCollider2D:
       - {x: 0.7576231, y: 0.13353473}
       - {x: 0.23881322, y: 0.14364617}
   m_UseDelaunayMesh: 0
+--- !u!114 &7568083282132218425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311784215118801757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c67ad829c88ec94ebe1b199820e2392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 7
+  bulletPrefab: {fileID: 8564477688499987432, guid: a8ce681a94efd3e48a1da9257d10a51b, type: 3}
+  attackPoint: {fileID: 2916499997568348558}
+  canAttack: 1
+  attackCooldown: 1
+  isAttacking: 0
+  movement: {x: 0, y: 0}
 --- !u!1 &6583134267105108001
 GameObject:
   m_ObjectHideFlags: 0

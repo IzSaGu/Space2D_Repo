@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -33,6 +34,13 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.CompareTag("Bullet"))
         {
             collision.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            //Cambiar a escena GAME OVER
+            SceneManager.LoadScene(2);
             gameObject.SetActive(false);
         }
     }
