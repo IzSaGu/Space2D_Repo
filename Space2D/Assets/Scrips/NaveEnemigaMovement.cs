@@ -15,12 +15,10 @@ public class EnemyController : MonoBehaviour
     [Header("General References")]
     [SerializeField] GameObject enemyBody;
     [SerializeField] PolygonCollider2D enemyCol;
-    //[SerializeField] Animator enemyAnim;
 
     private void Awake()
     {
         enemyCol = GetComponent<PolygonCollider2D>();
-        //enemyAnim = enemyBody.GetComponent<Animator>();
     }
 
     void Update()
@@ -40,7 +38,7 @@ public class EnemyController : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             //Cambiar a escena GAME OVER
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(2);//poner la escena y borrar linea abajo
             gameObject.SetActive(false);
         }
     }
