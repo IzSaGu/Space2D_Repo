@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bullet
   - Ground
+  - Confiner
   layers:
   - Default
   - TransparentFX
