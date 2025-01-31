@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
 
     [Header("Jump")]
-    [SerializeField] private float jumpForce - 4f;
+    [SerializeField] private float jumpForce = 4f;
     [SerializeField] private Transform checkGround;
     [SerializeField] private float raycastlength;
     [SerializeField] private LayerMask groundLayer;
@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         direction = Input.GetAxisRaw("Horizontal");
+        Jump();
     }
 
     private void FixedUpdate()
@@ -47,6 +48,12 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
-        isGrounded = Physics2D.Raycast(checkGround.position, Vector2.down, _raycastLength, groundLayer);
+        isGrounded = Physics2D.Raycast(checkGround.position, Vector2.down, raycastlength, groundLayer);
+        print(isGrounded); 
+
+        if (Input.GetButtonDown("Jump") && isGrounded == true)
+        {
+            rb.velocity = Vector2.up * jumpForce;
+        }
     }
 }
