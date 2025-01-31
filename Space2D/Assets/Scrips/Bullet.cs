@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Bullet : MonoBehaviour
 {
     [Header("Bullet Configuration")]
     [SerializeField] float speed = 10;
     [SerializeField] float limitY;
+
+
 
     void Update()
     {
@@ -16,4 +19,6 @@ public class Bullet : MonoBehaviour
         if (transform.position.y >= limitY) gameObject.SetActive(false);
     }
 }
+
+
 

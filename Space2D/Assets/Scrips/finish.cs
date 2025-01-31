@@ -9,10 +9,9 @@ public class finish : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+            SceneManager.LoadScene(4);
         }
 
     }

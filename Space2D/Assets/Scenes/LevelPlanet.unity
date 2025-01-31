@@ -36501,7 +36501,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -36526,7 +36526,7 @@ Transform:
   m_GameObject: {fileID: 555093913}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.65555525, y: -1.3899999, z: -10}
+  m_LocalPosition: {x: 329.13333, y: -61.579998, z: -10}
   m_LocalScale: {x: 1, y: 1.3375, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40281,7 +40281,7 @@ MonoBehaviour:
   m_Follow: {fileID: 5105770176694249618}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -40306,8 +40306,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1217345849}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.65555525, y: -1.3899999, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 329.13333, y: -61.579998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -41190,7 +41190,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -41232,7 +41232,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1374005029
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45559,11 +45559,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1772266522514364459, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.1
+      value: 323.8
       objectReference: {fileID: 0}
     - target: {fileID: 1772266522514364459, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.49
+      value: -65.1
       objectReference: {fileID: 0}
     - target: {fileID: 1772266522514364459, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
       propertyPath: m_LocalPosition.z

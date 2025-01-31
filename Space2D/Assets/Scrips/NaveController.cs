@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerController2D : MonoBehaviour
 {
@@ -27,6 +28,7 @@ public class PlayerController2D : MonoBehaviour
     PlayerInput input;
 
 
+    
     private void Awake()
     {
         playerRb = GetComponent<Rigidbody2D>();
@@ -34,6 +36,7 @@ public class PlayerController2D : MonoBehaviour
         playerAnim = GetComponent<Animator>();
     }
 
+   
     void Update()
     {
         Attack();
@@ -65,6 +68,7 @@ public class PlayerController2D : MonoBehaviour
         canAttack = true; //define que podemos atacar
     }
 
+    
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
