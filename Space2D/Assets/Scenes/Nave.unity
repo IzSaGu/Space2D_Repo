@@ -545,7 +545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnObject: {fileID: 7068675702278929279, guid: f507a86175ddadd4abacc6683c5c1f37, type: 3}
   spawnInitialDelay: 2
-  spawnRate: 1
+  spawnRate: 0.5
   isRandom: 1
   randomLimitX: 7
 --- !u!4 &950736923

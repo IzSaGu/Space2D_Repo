@@ -441,10 +441,7 @@ MonoBehaviour:
   m_text: 'A D:  Movimiento
 
 
-    Barra Espaciadora: Saltar
-
-
-    ALT derecho: Disparar'
+    Barra Espaciadora: Saltar'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -536,7 +533,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &342690362
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3315,7 +3312,7 @@ MonoBehaviour:
 
 
     ALT
-    derecho: Disparar'
+    derecho: Disparar (solo cada 1 segundo)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
