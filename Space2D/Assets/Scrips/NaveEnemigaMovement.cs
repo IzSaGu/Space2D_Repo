@@ -37,8 +37,8 @@ public class EnemyController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Player"))
         {
-            //Cambiar a escena GAME OVER
-            SceneManager.LoadScene(2);//poner la escena y borrar linea abajo
+            
+            SceneManager.LoadScene(5);
             gameObject.SetActive(false);
         }
     }

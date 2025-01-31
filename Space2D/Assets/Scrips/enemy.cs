@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemy : MonoBehaviour
 {
@@ -32,5 +33,20 @@ public class enemy : MonoBehaviour
             movement = Vector2.zero;
         }
         rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+            collision.gameObject.SetActive(false);
+            gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+
+            SceneManager.LoadScene(5);
+            gameObject.SetActive(false);
+        }
     }
 }
