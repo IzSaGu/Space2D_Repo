@@ -101,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   limitY: 10
+  score: 0
+  scoreText: {fileID: 0}
 --- !u!50 &4003306069312939323
 Rigidbody2D:
   serializedVersion: 4
