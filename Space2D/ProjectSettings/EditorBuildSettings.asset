@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nave.unity
     guid: c6e0e5b430aeff148a83dcfa5ae93097
+  - enabled: 1
+    path: Assets/Scenes/Win-next.unity
+    guid: 429613cc106c84543b814eceb38e5a9e
+  - enabled: 1
+    path: Assets/Scenes/LevelPlanet.unity
+    guid: fd7f4047814b72f4baad0b58e1191bef
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 2626b0c2356d04a46bc1dd40e2b94d3a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 6578b74452223cc4c89528b6d9783b08
   m_configObjects: {}
