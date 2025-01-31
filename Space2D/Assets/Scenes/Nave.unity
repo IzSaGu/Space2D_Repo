@@ -547,7 +547,7 @@ MonoBehaviour:
   spawnInitialDelay: 2
   spawnRate: 0.5
   isRandom: 1
-  randomLimitX: 7
+  randomLimitX: 8
 --- !u!4 &950736923
 Transform:
   m_ObjectHideFlags: 0
