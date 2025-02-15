@@ -387,7 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: Exit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -785,10 +785,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458408941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.17514585, y: 0.5}
-  m_AnchorMax: {x: 0.83222914, y: 0.7208889}
-  m_AnchoredPosition: {x: 65, y: -69}
-  m_SizeDelta: {x: 219.9688, y: 8.0095}
+  m_AnchorMin: {x: 0.25072917, y: 0.39651856}
+  m_AnchorMax: {x: 0.7435418, y: 0.60740745}
+  m_AnchoredPosition: {x: 4.5, y: -2}
+  m_SizeDelta: {x: -7.2650146, y: 15.270004}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804517230
 MonoBehaviour:
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Has ganado
+  m_text: You won
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir al menu
+  m_text: Exit to menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gracias por jugar
+  m_text: THX for playing
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}

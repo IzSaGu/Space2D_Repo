@@ -19,7 +19,7 @@ public class Temporizador : MonoBehaviour
 
         while (tiempoRestante > 0)
         {
-            textoContador.text = "Tiempo restante: " + Mathf.Ceil(tiempoRestante).ToString();
+            textoContador.text = "Time left: " + Mathf.Ceil(tiempoRestante).ToString();
             yield return new WaitForSeconds(1f);
             tiempoRestante--;
         }

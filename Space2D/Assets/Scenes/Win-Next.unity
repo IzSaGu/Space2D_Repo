@@ -156,10 +156,10 @@ RectTransform:
   - {fileID: 546643414}
   m_Father: {fileID: 1458408941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.17514585, y: 0.15342104}
-  m_AnchorMax: {x: 0.3996875, y: 0.32289475}
-  m_AnchoredPosition: {x: 1.5, y: 4}
-  m_SizeDelta: {x: -8.667206, y: 3.5491028}
+  m_AnchorMin: {x: 0.60537505, y: 0.15342104}
+  m_AnchorMax: {x: 0.83222914, y: 0.32289475}
+  m_AnchoredPosition: {x: 3, y: 4}
+  m_SizeDelta: {x: -12.667236, y: 3.5491028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &44605900
 MonoBehaviour:
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: Exit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -498,10 +498,10 @@ RectTransform:
   - {fileID: 834399831}
   m_Father: {fileID: 1458408941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.61868757, y: 0.15342104}
-  m_AnchorMax: {x: 0.83222914, y: 0.32289475}
-  m_AnchoredPosition: {x: 6.5, y: 4}
-  m_SizeDelta: {x: 13.332794, y: 3.5491028}
+  m_AnchorMin: {x: 0.20972918, y: 0.15342104}
+  m_AnchorMax: {x: 0.43100002, y: 0.32289475}
+  m_AnchoredPosition: {x: -4.5, y: 4}
+  m_SizeDelta: {x: 0.33276367, y: 3.5491028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &647598350
 MonoBehaviour:
@@ -785,10 +785,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1458408941}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.17514585, y: 0.5}
-  m_AnchorMax: {x: 0.83222914, y: 0.7208889}
-  m_AnchoredPosition: {x: 65, y: -69}
-  m_SizeDelta: {x: 219.9688, y: 8.0095}
+  m_AnchorMin: {x: 0.24656251, y: 0.5}
+  m_AnchorMax: {x: 0.73962516, y: 0.66311115}
+  m_AnchoredPosition: {x: 13, y: -13}
+  m_SizeDelta: {x: 6.6932373, y: 37.353607}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804517230
 MonoBehaviour:
@@ -810,7 +810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Has ganado
+  m_text: You won
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -944,7 +944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Siguiente
+  m_text: Next
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
