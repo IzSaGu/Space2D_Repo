@@ -179,8 +179,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tu planeta ha petao, tu y los demas supervivientes debeis encontrar un
-    planeta cercano donde habitar
+  m_text: "Your planet has exploded, you and the other survivors must find a nearby
+    planet to live on.\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -438,10 +438,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A D:  Movimiento
+  m_text: 'A D:  Movement
 
 
-    Barra Espaciadora: Saltar'
+    Space bar: jump'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -1510,7 +1510,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Historia:'
+  m_text: 'Lore:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Controles:'
+  m_text: 'Controls:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -1911,7 +1911,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Controles
+  m_text: 'Controls
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -2045,7 +2047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Historia
+  m_text: Lore
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -2746,8 +2748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 13.38, y: 0}
+  m_SizeDelta: {x: 179.23, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1454200619
 MonoBehaviour:
@@ -2769,7 +2771,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cerrar
+  m_text: 'Exit
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3091,7 +3095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tu planeta
+  m_text: Your planet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -3308,11 +3312,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'W A S D:  Movimiento de la nave hacia todas las direcciones
+  m_text: 'W A S D:  Space ship movement
 
 
-    ALT
-    derecho: Disparar (solo cada 1 segundo)'
+    Right ALT : shoot (only once every
+    second)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -3832,8 +3836,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 13.38, y: 0}
+  m_SizeDelta: {x: 179.23, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2020624860
 MonoBehaviour:
@@ -3855,7 +3859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cerrar
+  m_text: Exit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
