@@ -45806,7 +45806,8 @@ PrefabInstance:
       propertyPath: m_GravityScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5000640211369337317, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -45815,26 +45816,13 @@ PrefabInstance:
       addedObject: {fileID: 5105770176694249620}
     - targetCorrespondingSourceObject: {fileID: 8058136508896903508, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5105770176694249619}
+      addedObject: {fileID: 5105770176694249626}
   m_SourcePrefab: {fileID: 100100000, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
 --- !u!4 &5105770176694249618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1772266522514364459, guid: c491ec5c2de2bd643a0e0ab6cae5e9b8, type: 3}
   m_PrefabInstance: {fileID: 5105770176694249611}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5105770176694249619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1566459454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c13991c0f3324442918145a885fd28c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidad: 0
 --- !u!95 &5105770176694249620
 Animator:
   serializedVersion: 5
@@ -45856,6 +45844,25 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5105770176694249626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566459454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9b2b4980e95764599775cec345d069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
+  jumpForce: 4
+  checkGround: {fileID: 0}
+  raycastlength: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &5164485213480197794 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6955594718382225516, guid: a437ff76a603de8478da512ffc10cfac, type: 3}
