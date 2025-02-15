@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reintentar
+  m_text: Retry?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
@@ -556,7 +556,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: 'Exit
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 510455542980b2c459cc61af418910d0, type: 2}
   m_sharedMaterial: {fileID: 8480659450747811867, guid: 510455542980b2c459cc61af418910d0, type: 2}
