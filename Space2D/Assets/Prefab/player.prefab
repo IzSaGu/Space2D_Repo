@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 7936086651718052033}
   - component: {fileID: 6849325707485265469}
   - component: {fileID: 5000640211369337317}
+  - component: {fileID: 6736510509129417298}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -61,7 +62,7 @@ Transform:
   m_GameObject: {fileID: 8058136508896903508}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -4.49, z: 0}
+  m_LocalPosition: {x: -3.82, y: -4.4, z: 0}
   m_LocalScale: {x: 1.7159, y: 1.7159, z: 1.7159}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -186,7 +187,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 8058136508896903508}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: b9ef9c3babc7a5c4bae63b7d8a5257b6, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -234,10 +235,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d9b2b4980e95764599775cec345d069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
-  jumpForce: 8
+  speed: 8
+  jumpForce: 9
   checkGround: {fileID: 3543502206524143794}
   raycastlength: 0.9
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+--- !u!95 &6736510509129417298
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8058136508896903508}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c3ca9347fb3350d4baace6c56f309914, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
